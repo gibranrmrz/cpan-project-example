@@ -1,0 +1,14 @@
+com/ramirez/interceptor/Logged.class
+com/ramirez/alternatives/AdultWitcherAnnouncer.class
+com/ramirez/qualifiers/AddEvent.class
+com/ramirez/qualifiers/DeleteEvent.class
+com/ramirez/model/Witcher.class
+com/ramirez/service/WitcherService.class
+com/ramirez/alternatives/KidWitcherAnnouncer.class
+com/ramirez/decorator/WitcherServiceDecorator.class
+com/ramirez/interceptor/LoggedInterceptor.class
+com/ramirez/service/WitcherManager.class
+com/ramirez/WitcherBean.class
+com/ramirez/alternatives/WitcherAnnouncer.class
+com/ramirez/model/Geralt.class
+com/ramirez/model/Witcher$School.class

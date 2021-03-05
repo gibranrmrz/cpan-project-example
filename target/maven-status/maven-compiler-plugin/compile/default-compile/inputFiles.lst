@@ -1,0 +1,13 @@
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/qualifiers/AddEvent.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/service/WitcherManager.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/decorator/WitcherServiceDecorator.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/interceptor/LoggedInterceptor.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/alternatives/WitcherAnnouncer.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/qualifiers/DeleteEvent.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/model/Witcher.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/interceptor/Logged.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/service/WitcherService.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/model/Geralt.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/WitcherBean.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/alternatives/AdultWitcherAnnouncer.java
+/Users/gibranramirez/Downloads/test-maven/src/main/java/com/ramirez/alternatives/KidWitcherAnnouncer.java

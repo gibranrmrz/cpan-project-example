@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+    <div class="p-d-flex">
+        <p:staticMessage severity="info"
+                         summary="INFO" detail="#{witcherBean.announcementMessage}"
+                         style="width: 100%; margin-bottom: 2em"/>
+        <div class="p-mr-2">
+            <p:dataTable var="witcher" value="#{witcherBean.witchers}">
+                <p:column headerText="Witcher name">
+                    <h:outputText value="#{witcher.name}"/>
+                </p:column>
+
+                <p:column headerText="School">
+                    <h:outputText value="#{witcher.school}"/>
+                </p:column>
+
+                <p:column headerText="Witcher city">
+                    <h:outputText value="#{witcher.city}"/>
+                </p:column>
+
+            </p:dataTable>
+        </div>
+        <div class="p-mr-2" style="margin-top: 2em">
+            <h:form>
+                <div class="p-field" style="margin: 2em">
+                    <p:outputLabel for="name" style="margin-right: 1em">Witcher name: </p:outputLabel>
+                    <p:inputText id="name" type="text" value="#{witcherBean.name}"/>
+                </div>
+                <div class="p-field" style="margin: 2em">
+                    <p:outputLabel for="school" style="margin-right: 1em">Witcher school: </p:outputLabel>
+                    <p:inputText id="school" type="text" value="#{witcherBean.school}"/>
+                </div>
+                <div class="p-field" style="margin: 2em">
+                    <p:outputLabel for="city" style="margin-right: 1em">Witcher city: </p:outputLabel>
+                    <p:inputText id="city" type="text" value="#{witcherBean.city}"/>
+                </div>
+                <p:commandButton style="margin: 2em" type="submit" actionListener="#{witcherBean.addWitcher}"
+                                 value="Add Witcher"
+                                 icon="pi pi-check" iconPos="right"/>
+            </h:form>
+        </div>
+    </div>
+
+</h:body>
+</html>
